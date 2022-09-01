@@ -6,8 +6,9 @@ models/*
 .env
 .ipynb_checkpoints
 pipeline.conf
-data/dispute-dataframes/*
-data/dispute-final-out/*
-data/dispute-predictions/*
-data/nu-api-data-raw/*
+!models/.gitkeep
+data/dispute-dataframes/*.json
+data/dispute-final-out/*.xlsx
+data/dispute-predictions/*.json
+data/nu-api-data-raw/*.json
 data/mediation_search_results*
