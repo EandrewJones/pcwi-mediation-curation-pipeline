@@ -1,0 +1,732 @@
+[
+  {
+    "name": "Ethiopia-Oromo",
+    "search_str": "(Ethiopia) w/seg [Oromo*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31"
+  },
+  {
+    "name": "Ethiopia-Oromo",
+    "search_str": "(Ethiopia) w/seg [Oromo*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31"
+  },
+  {
+    "name": "Sudan-Southerns",
+    "search_str": "(Sudan) w/seg [Southerner OR Southerners] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31"
+  },
+  {
+    "name": "Sudan-Southerns",
+    "search_str": "(Sudan) w/seg [Southerner OR Southerners] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31"
+  },
+  {
+    "search_str": "(Zimbabwe) w/seg [Ndebele*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31",
+    "name": "Zimbabwe-Ndebele"
+  },
+  {
+    "search_str": "(Zimbabwe) w/seg [Ndebele*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31",
+    "name": "Zimbabwe-Ndebele"
+  },
+  {
+    "search_str": "(Yugoslavia) w/seg [Hungarian*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Yugoslavia-Hungarian"
+  },
+  {
+    "search_str": "(Yugoslavia) w/seg [Albanian*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Yugoslavia-Albanian"
+  },
+  {
+    "search_str": "(Comoros) w/seg [Anjouan*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Comoros-Anjouan",
+    "n_requests": 0
+  },
+  {
+    "search_str": "(Italy) w/seg [\"Southern Tyrolian\" OR \"Southern Tyrolians\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Italy-SouthernTyrolian",
+    "n_requests": 0
+  },
+  {
+    "search_str": "(Namibia) w/seg [\"East Caprivian\" OR \"East Caprivians\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Namibia-EastCaprivian",
+    "n_requests": 0
+  },
+  {
+    "search_str": "(Somalia) w/seg [\"Puntland Darod\" OR \"Puntland Darods\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Somalia-PuntlandDarod",
+    "n_requests": 0
+  },
+  {
+    "search_str": "(Yugoslavia) w/seg [\"Sandzak Muslim\" OR \"Sandzak Muslims\" OR \"Sanjak Muslim\" OR \"Sanjak Muslims\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Yugoslavia-SandzakMuslim",
+    "n_requests": 1
+  },
+  {
+    "search_str": "(Ecuador) w/seg [Lowland AND Indigenous OR \"Indigenous People\" OR \"Indigenous Peoples\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Ecuador-IndigenousPeople",
+    "n_requests": 2
+  },
+  {
+    "search_str": "(Equatorial Guinea) w/seg [Bubi*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "EquatorialGuinea-Bubi",
+    "n_requests": 2
+  },
+  {
+    "search_str": "(Peru) w/seg [Lowland AND Indigenous OR \"Indigenous People\" OR \"Indigenous Peoples\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Peru-IndigenousPeople",
+    "n_requests": 2
+  },
+  {
+    "search_str": "(Trinidad and Tobago) w/seg [Tobagonian*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "TrinidadandTobago-Tobagonian",
+    "n_requests": 2
+  },
+  {
+    "search_str": "(Bhutan) w/seg [Lhotshampa* OR Lhotsampa*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Bhutan-LhotshampaORLhotsampa",
+    "n_requests": 3
+  },
+  {
+    "search_str": "(Philippines) w/seg [Igorot* OR Cordilleran*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Philippines-IgorotORCordilleran",
+    "n_requests": 3
+  },
+  {
+    "search_str": "(Azerbaijan) w/seg [Lezgin*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Azerbaijan-Lezgin",
+    "n_requests": 4
+  },
+  {
+    "search_str": "(Congo-Kinshasa OR Kinshasa OR Democratic Republic of the Congo OR DRC) w/seg [Lunda* OR Yeke*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Congo-KinshasaORKinshasaORDemocraticRepublicoftheCongoORDRC-LundaORYeke",
+    "n_requests": 5
+  },
+  {
+    "search_str": "(Georgia) w/seg [Adzhar* OR Adjar*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31",
+    "name": "Georgia-AdzharORAdjar",
+    "n_requests": 5
+  },
+  {
+    "search_str": "(Belgium) w/seg [Walloon*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31",
+    "name": "Belgium-Walloon",
+    "n_requests": 6
+  },
+  {
+    "search_str": "(Algeria) w/seg [Berber*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31",
+    "name": "Algeria-Berber",
+    "n_requests": 7
+  },
+  {
+    "search_str": "(India) w/seg [Ladakhi*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "India-Ladakhi",
+    "n_requests": 7
+  },
+  {
+    "search_str": "(Georgia) w/seg [Adzhar* OR Adjar*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31",
+    "name": "Georgia-AdzharORAdjar",
+    "n_requests": 8
+  },
+  {
+    "search_str": "(South Africa) w/seg [Khoisan* OR Khoe-San*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "SouthAfrica-KhoisanORKhoe-San",
+    "n_requests": 8
+  },
+  {
+    "search_str": "(United Kingdom) w/seg [Cornish*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "UnitedKingdom-Cornish",
+    "n_requests": 8
+  },
+  {
+    "search_str": "(Algeria) w/seg [Berber*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31",
+    "name": "Algeria-Berber",
+    "n_requests": 9
+  },
+  {
+    "search_str": "(Colombia) w/seg [Indigenous OR \"Indigenous People\" OR \"Indigenous Peoples\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31",
+    "name": "Colombia-IndigenousPeople",
+    "n_requests": 9
+  },
+  {
+    "search_str": "(India) w/seg [\"Kashmiri Hindu\" OR \"Kashmiri Hindus\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "India-KashmiriHindu",
+    "n_requests": 9
+  },
+  {
+    "search_str": "(Somalia) w/seg [Isaaq* OR Isaq* OR Ishaak* OR Isaac*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Somalia-IsaaqORIsaqORIshaakORIsaac",
+    "n_requests": 10
+  },
+  {
+    "search_str": "(Belgium) w/seg [Walloon*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31",
+    "name": "Belgium-Walloon",
+    "n_requests": 11
+  },
+  {
+    "search_str": "(Georgia) w/seg [\"South Ossetian\" OR \"South Ossetians\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31",
+    "name": "Georgia-SouthOssetian",
+    "n_requests": 11
+  },
+  {
+    "search_str": "(Russia) w/seg [Buryat*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31",
+    "name": "Russia-Buryat",
+    "n_requests": 12
+  },
+  {
+    "search_str": "(Papua New Guinea) w/seg [Bougainvillean*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "PapuaNewGuinea-Bougainvillean",
+    "n_requests": 14
+  },
+  {
+    "search_str": "(Djibouti) w/seg [Afar*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Djibouti-Afar",
+    "n_requests": 16
+  },
+  {
+    "search_str": "(Italy) w/seg [Sardinian*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Italy-Sardinian",
+    "n_requests": 19
+  },
+  {
+    "search_str": "(Pakistan) w/seg [Saraiki*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Pakistan-Saraiki",
+    "n_requests": 19
+  },
+  {
+    "search_str": "(Sri Lanka) w/seg [Muslim*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31",
+    "name": "SriLanka-Muslim",
+    "n_requests": 19
+  },
+  {
+    "search_str": "(Myanmar) w/seg [Karenni* OR Kayah* OR \"Kayah Li\" OR \"Kayah Lis\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Myanmar-KayahLi",
+    "n_requests": 21
+  },
+  {
+    "search_str": "(Russia) w/seg [Buryat*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31",
+    "name": "Russia-Buryat",
+    "n_requests": 23
+  },
+  {
+    "search_str": "(Nicaragua) w/seg [Indigenous OR \"Indigenous People\" OR \"Indigenous Peoples\" OR Creole*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Nicaragua-IndigenousPeople",
+    "n_requests": 25
+  },
+  {
+    "search_str": "(Bangladesh) w/seg [\"Chittagong Hill\" AND People*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Bangladesh-ChittagongHill",
+    "n_requests": 26
+  },
+  {
+    "search_str": "(Vietnam) w/seg [Montagnard*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Vietnam-Montagnard",
+    "n_requests": 26
+  },
+  {
+    "search_str": "(United Kingdom) w/seg [Catholic*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31",
+    "name": "UnitedKingdom-Catholic",
+    "n_requests": 29
+  },
+  {
+    "search_str": "(Moldova) w/seg [Gagauz*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Moldova-Gagauz",
+    "n_requests": 30
+  },
+  {
+    "search_str": "(United Kingdom) w/seg [Catholic*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31",
+    "name": "UnitedKingdom-Catholic",
+    "n_requests": 30
+  },
+  {
+    "search_str": "(Uganda) w/seg [Baganda* OR Ganda*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Uganda-BagandaORGanda",
+    "n_requests": 32
+  },
+  {
+    "search_str": "(Norway) w/seg [Saami* OR Sami*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Norway-SaamiORSami",
+    "n_requests": 35
+  },
+  {
+    "search_str": "(South Africa) w/seg [Afrikaner*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31",
+    "name": "SouthAfrica-Afrikaner",
+    "n_requests": 35
+  },
+  {
+    "search_str": "(France) w/seg [Corsican*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "France-Corsican",
+    "n_requests": 36
+  },
+  {
+    "search_str": "(India) w/seg [\"Kashmiri Muslim\" OR \"Kashmiri Muslims\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "India-KashmiriMuslim",
+    "n_requests": 36
+  },
+  {
+    "search_str": "(Russia) w/seg [Lezgin* OR Lek*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Russia-LezginORLek",
+    "n_requests": 37
+  },
+  {
+    "search_str": "(United States) w/seg [\"Native Hawaiian\" OR \"Native Hawaiians\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "UnitedStates-NativeHawaiian",
+    "n_requests": 37
+  },
+  {
+    "search_str": "(Sweden) w/seg [Saami* OR Sami*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Sweden-SaamiORSami",
+    "n_requests": 38
+  },
+  {
+    "search_str": "(Colombia) w/seg [Indigenous OR \"Indigenous People\" OR \"Indigenous Peoples\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31",
+    "name": "Colombia-IndigenousPeople",
+    "n_requests": 39
+  },
+  {
+    "search_str": "(Finland) w/seg [Saami* OR Sami*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Finland-SaamiORSami",
+    "n_requests": 40
+  },
+  {
+    "search_str": "(Cameroon) w/seg [West*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Cameroon-West",
+    "n_requests": 348
+  },
+  {
+    "search_str": "(Canada) w/seg [Indigenous OR \"Indigenous People\" OR \"Indigenous Peoples\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Canada-IndigenousPeople",
+    "n_requests": 367
+  },
+  {
+    "search_str": "(Russia) w/seg [Tatar*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Russia-Tatar",
+    "n_requests": 376
+  },
+  {
+    "search_str": "(Nigeria) w/seg [Ibo* OR Igbo*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Nigeria-IboORIgbo",
+    "n_requests": 464
+  },
+  {
+    "search_str": "(Thailand) w/seg [\"Malay-Muslim\" OR \"Malay-Muslims\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Thailand-\"Malay-Muslim\"OR\"Malay-Muslims\"",
+    "n_requests": 15
+  },
+  {
+    "search_str": "(Myanmar) w/seg [Wa*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Myanmar-Wa",
+    "n_requests": 43
+  },
+  {
+    "search_str": "(Ethiopia) w/seg [Afar*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Ethiopia-Afar",
+    "n_requests": 44
+  },
+  {
+    "search_str": "(Nigeria) w/seg [Oron* OR Örö*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Nigeria-OronORÖrö",
+    "n_requests": 47
+  },
+  {
+    "search_str": "(Georgia) w/seg [\"South Ossetian\" OR \"South Ossetians\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31",
+    "name": "Georgia-SouthOssetian",
+    "n_requests": 51
+  },
+  {
+    "search_str": "(Taiwan) w/seg [Aborigin* OR Indigenous OR \"Indigenous People\" OR \"Indigenous Peoples\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Taiwan-IndigenousPeople",
+    "n_requests": 54
+  },
+  {
+    "search_str": "(Moldova) w/seg [Transnistria*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Moldova-Transnistria",
+    "n_requests": 59
+  },
+  {
+    "search_str": "(Chile) w/seg [Indigenous OR \"Indigenous People\" OR \"Indigenous Peoples\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Chile-IndigenousPeople",
+    "n_requests": 66
+  },
+  {
+    "search_str": "(South Africa) w/seg [Afrikaner*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 1999-12-31",
+    "name": "SouthAfrica-Afrikaner",
+    "n_requests": 69
+  },
+  {
+    "search_str": "(Laos) w/seg [Hmong*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Laos-Hmong",
+    "n_requests": 74
+  },
+  {
+    "search_str": "(Ukraine) w/seg [\"Crimean Tatar\" OR \"Crimean Tatars\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Ukraine-CrimeanTatar",
+    "n_requests": 74
+  },
+  {
+    "search_str": "(Nigeria) w/seg [Ogoni*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Nigeria-Ogoni",
+    "n_requests": 90
+  },
+  {
+    "search_str": "(Nigeria) w/seg [Ijaw* OR Izon*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Nigeria-IjawORIzon",
+    "n_requests": 101
+  },
+  {
+    "search_str": "(Indonesia) w/seg [Papuan*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Indonesia-Papuan",
+    "n_requests": 102
+  },
+  {
+    "search_str": "(Myanmar) w/seg [Karen*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Myanmar-Karen",
+    "n_requests": 109
+  },
+  {
+    "search_str": "(United States) w/seg [\"Puerto Rican\" OR \"Puerto Ricans\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "UnitedStates-PuertoRican",
+    "n_requests": 109
+  },
+  {
+    "search_str": "(Sri Lanka) w/seg [Muslim*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 2011-01-01 and Date lt 2015-12-31",
+    "name": "SriLanka-Muslim",
+    "n_requests": 113
+  },
+  {
+    "search_str": "(Sudan) w/seg [Nuba*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Sudan-Nuba",
+    "n_requests": 128
+  },
+  {
+    "search_str": "(Belgium) w/seg [Flemish* OR Fleming*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Belgium-FlemishORFleming",
+    "n_requests": 143
+  },
+  {
+    "search_str": "(Morocco) w/seg [Saharawi* OR Sahrawi*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Morocco-SaharawiORSahrawi",
+    "n_requests": 144
+  },
+  {
+    "search_str": "(Brazil) w/seg [Indigenous OR \"Indigenous People\" OR \"Indigenous Peoples\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Brazil-IndigenousPeople",
+    "n_requests": 152
+  },
+  {
+    "search_str": "(India) w/seg [Tripuri* OR Tipra* OR Tripura* OR Tiprasa* OR Twipra*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "India-TripuriORTipraORTripuraORTiprasaORTwipra",
+    "n_requests": 160
+  },
+  {
+    "search_str": "(Yugoslavia) w/seg [\"Kosovo Albanian\" OR \"Kosovo Albanians\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Yugoslavia-KosovoAlbanian",
+    "n_requests": 163
+  },
+  {
+    "search_str": "(Pakistan) w/seg [Sindhi*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Pakistan-Sindhi",
+    "n_requests": 178
+  },
+  {
+    "search_str": "(Nigeria) w/seg [Yoruba*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Nigeria-Yoruba",
+    "n_requests": 180
+  },
+  {
+    "search_str": "(Mexico) w/seg [Indigenous OR \"Indigenous People\" OR \"Indigenous Peoples\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Mexico-IndigenousPeople",
+    "n_requests": 216
+  },
+  {
+    "search_str": "(Romania) w/seg [Magyar* OR Hungarian*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Romania-MagyarORHungarian",
+    "n_requests": 223
+  },
+  {
+    "search_str": "(Georgia) w/seg [Abkhazian*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Georgia-Abkhazian",
+    "n_requests": 242
+  },
+  {
+    "search_str": "(Myanmar) w/seg [Rohingya*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Myanmar-Rohingya",
+    "n_requests": 245
+  },
+  {
+    "search_str": "(Slovakia) w/seg [Hungarian*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Slovakia-Hungarian",
+    "n_requests": 303
+  },
+  {
+    "search_str": "(Mali) w/seg [Tuareg* OR Twareg* OR Touareg*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Mali-TuaregORTwaregORTouareg",
+    "n_requests": 339
+  },
+  {
+    "search_str": "(South Africa) w/seg [Zulu*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "SouthAfrica-Zulu",
+    "n_requests": 349
+  },
+  {
+    "search_str": "(United States) w/seg [Indigenous OR \"Indigenous People\" OR \"Indigenous Peoples\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "UnitedStates-IndigenousPeople",
+    "n_requests": 368
+  },
+  {
+    "search_str": "(Russia) w/seg [Yakut* OR Sakha*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Russia-YakutORSakha",
+    "n_requests": 699
+  },
+  {
+    "search_str": "(Cyprus) w/seg [\"Turkish Cypriot\" OR \"Turkish Cypriots\" OR \"Cypriot Turk\" OR \"Cypriot Turks\"] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Cyprus-TurkishCypriot",
+    "n_requests": 790
+  },
+  {
+    "search_str": "(Macedonia) w/seg [Albanian*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Macedonia-Albanian",
+    "n_requests": 821
+  },
+  {
+    "search_str": "(Ethiopia) w/seg [Somali*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Ethiopia-Somali",
+    "n_requests": 853
+  },
+  {
+    "search_str": "(Afghanistan) w/seg [Uzbek*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Afghanistan-Uzbek",
+    "n_requests": 854
+  },
+  {
+    "search_str": "(Uzbekistan) w/seg [Tajik*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Uzbekistan-Tajik",
+    "n_requests": 880
+  },
+  {
+    "search_str": "(United Kingdom) w/seg [Scot*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "UnitedKingdom-Scot",
+    "n_requests": 1041
+  },
+  {
+    "search_str": "(Iran) w/seg [Kurd*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Iran-Kurd",
+    "n_requests": 1052
+  },
+  {
+    "search_str": "(Afghanistan) w/seg [Tajik*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Afghanistan-Tajik",
+    "n_requests": 1067
+  },
+  {
+    "search_str": "(India) w/seg [Naga*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "India-Naga",
+    "n_requests": 873
+  },
+  {
+    "search_str": "(Kyrgyzstan) w/seg [Uzbek*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Kyrgyzstan-Uzbek",
+    "n_requests": 849
+  },
+  {
+    "search_str": "(India) w/seg [Sikh*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "India-Sikh",
+    "n_requests": 557
+  },
+  {
+    "search_str": "(Philippines) w/seg [Moro*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Philippines-Moro",
+    "n_requests": 547
+  },
+  {
+    "search_str": "(Spain) w/seg [Basque*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Spain-Basque",
+    "n_requests": 510
+  },
+  {
+    "search_str": "(China) w/seg [Uyghur* OR Uygur* OR Uighur* OR Uigur* ] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "China-UyghurORUygurORUighurORUigur",
+    "n_requests": 505
+  },
+  {
+    "search_str": "(France) w/seg [Basque*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "France-Basque",
+    "n_requests": 290
+  },
+  {
+    "search_str": "(France) w/seg [Breton*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "France-Breton",
+    "n_requests": 246
+  },
+  {
+    "search_str": "(Spain) w/seg [Catalan*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Spain-Catalan",
+    "n_requests": 243
+  },
+  {
+    "search_str": "(India) w/seg [Bodo* OR Boro*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "India-BodoORBoro",
+    "n_requests": 136
+  },
+  {
+    "search_str": "(India) w/seg [Mizo*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "India-Mizo",
+    "n_requests": 108
+  },
+  {
+    "search_str": "(Canada) w/seg [Quebecois* OR Quebecer* OR Quebecker*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Canada-QuebecoisORQuebecerORQuebecker",
+    "n_requests": 1089
+  },
+  {
+    "search_str": "(China) w/seg [Mongol*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "China-Mongol",
+    "n_requests": 1108
+  },
+  {
+    "search_str": "(Azerbaijan) w/seg [Armenian*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Azerbaijan-Armenian",
+    "n_requests": 1205
+  },
+  {
+    "search_str": "(China) w/seg [Tibetan*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "China-Tibetan",
+    "n_requests": 1277
+  },
+  {
+    "search_str": "(Russia) w/seg [Chechen*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Russia-Chechen",
+    "n_requests": 1583
+  },
+  {
+    "search_str": "(Myanmar) w/seg [Chin* OR Zo* OR Zomi*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Myanmar-ChinORZoORZomi",
+    "n_requests": 1650
+  },
+  {
+    "search_str": "(Sri Lanka) w/seg [Tamil*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "SriLanka-Tamil",
+    "n_requests": 1723
+  },
+  {
+    "search_str": "(India) w/seg [Reang* OR Bru*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "India-ReangORBru",
+    "n_requests": 1736
+  }
+]

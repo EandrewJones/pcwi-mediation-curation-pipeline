@@ -1,0 +1,68 @@
+[
+  {
+    "search_str": "(Iraq) w/seg [Kurd*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Iraq-Kurd",
+    "n_requests": 4011
+  },
+  {
+    "search_str": "(Bosnia) w/seg [Serb*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Bosnia-Serb",
+    "n_requests": 3917
+  },
+  {
+    "search_str": "(Pakistan) w/seg [Baloch* OR Baluch*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Pakistan-BalochORBaluch",
+    "n_requests": 3897
+  },
+  {
+    "search_str": "(Bosnia) w/seg [Croat*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Bosnia-Croat",
+    "n_requests": 2541
+  },
+  {
+    "search_str": "(Ukraine) w/seg [Crimea*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Ukraine-Crimea",
+    "n_requests": 2385
+  },
+  {
+    "search_str": "(Kazakhstan) w/seg [Russian*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Kazakhstan-Russian",
+    "n_requests": 2267
+  },
+  {
+    "search_str": "(Turkey) w/seg [Kurd*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Turkey-Kurd",
+    "n_requests": 2246
+  },
+  {
+    "search_str": "(Myanmar) w/seg [Mon*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Myanmar-Mon",
+    "n_requests": 1984
+  },
+  {
+    "search_str": "(Pakistan) w/seg [Pashtun* OR Pakhtun* OR Pathan*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Pakistan-PashtunORPakhtunORPathan",
+    "n_requests": 1962
+  },
+  {
+    "search_str": "(Croatia) w/seg [Serb*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Croatia-Serb",
+    "n_requests": 1897
+  },
+  {
+    "search_str": "(Australia) w/seg [Aborigin*] w/seg [mediation OR talks OR meeting OR visit OR envoy OR “shuttle diplomacy” OR “good offices” OR ceasefire OR settlement OR “peace agreement” OR “special representative” OR representative OR delegat* OR diploma* OR ambassador OR ”peace deal” OR dialogue OR fact-finding OR “fact finding” OR bilateral OR multilateral OR multiparty OR resolution OR “round table” OR round-table OR workshop]",
+    "date": "Date gt 1991-01-01 and Date lt 2015-12-31",
+    "name": "Australia-Aborigin",
+    "n_requests": 1871
+  }
+]

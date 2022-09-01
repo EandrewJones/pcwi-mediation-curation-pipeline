@@ -1,0 +1,13 @@
+# Directories
+venv/
+models/*
+
+# Files
+.env
+.ipynb_checkpoints
+pipeline.conf
+data/dispute-dataframes/*
+data/dispute-final-out/*
+data/dispute-predictions/*
+data/nu-api-data-raw/*
+data/mediation_search_results*
