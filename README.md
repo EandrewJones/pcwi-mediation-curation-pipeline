@@ -172,9 +172,13 @@ We trained each model and compared their results. Below you can find the confusi
 
 In particular, we care about the true positive versus false positive rates since, by virtue of the extreme class imbalance, predicting non-mediation events is extremely easy. You could predict every articles as non-mediation and achieve an accuracy of 99.4%. Moreover, we are primarily interested in finding _all_ mediation events and do not care about non-mediation events at all. It's more important to improperly classify an article as a mediation event than to accidentally classify a true mediation event as a non-mediation event. Hence, the False Negative and True Positive rates are what we care about minimizing and maximizing, respectively.
 
-<img src="figs/distilbert-base-uncased-confusion-matrix.png" alt="distilbert-f1" width="450"/>
-<img src="figs/distilbert-base-uncased-quantized-confusion-matrix.png" alt="quantized-distilbert-f1" width="450"/>
-<img src="figs/longformer-base-4096-confusion-matrix.png" alt="longformer-f1" width="450"/>
+<div>
+<img src="figs/distilbert-base-uncased-confusion-matrix.png" alt="distilbert-f1" width="400"/>
+<img src="figs/distilbert-base-uncased-quantized-confusion-matrix.png" alt="quantized-distilbert-f1" width="400"/>
+<center>
+    <img src="figs/longformer-base-4096-confusion-matrix.png" alt="longformer-f1" width="400"/>
+</center>
+</div>
 
 In the figures above, the false negative rate can be found in the bottom left cell and the true positive rate in the bottom right cell. As you can see and might expect, the two DistilBERT architectures performed similarly. The tangible difference is in runtimes, which might matter if you're constrained to CPU-only infrastructure. Out of all true mediation events, they (in)correctly labeled about (33) 67% of test data points. The longformer architecture performed signifantly better, (in)correctly labeling (19) 81% of test data points.
 
