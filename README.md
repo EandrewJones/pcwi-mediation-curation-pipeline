@@ -79,7 +79,7 @@ If you intend to retrain the models from scratch, modify the training code, or f
 Once you have installed and activated the virtual environment, all you need to do is run the `train_classifiers.py` script. For example, to run the script as a background process on linux and log the output to a log file:
 
 ```bash
-$ nohup python3 -u scripts/train_classifiers.py > logs/trains_classifiers.log &
+(venv) $ nohup python3 -u scripts/train_classifiers.py > logs/trains_classifiers.log &
 ```
 
 ## Data Pipeline
@@ -109,8 +109,73 @@ Note that the `nu-api-batch-fetch.sh` shell script just acts as a wrapper around
 
 ### Transforming raw data
 
+The raw data from the Nexis Uni API will be stored in the `data/nu-api-data-raw/` directory. Before the model can predict mediation events on this data, it must be transformed. The script for transforming the data can be run as follows:
+
+```bash
+(venv) $ nohup python3 -u scripts/nu-api-data-transform.py > logs/fetch-dispute-data-transform.log &
+```
+
+This will automatically look at output directory for the transformations (`dispute-dataframes`), compare file names against the untransformed data sets in `nu-api-data-raw`, and only transform data that has not yet been transformed.
+
+These transformations can be done intermittently or in a large batch after all data collection is complete. To productionize, one could wrap the script in a shell script using the data collection example and create a daily cron job to further automate the process.
+
 ### Predicting mediation events
+
+The mediataion prediction script reads in data from the `data/dispute-dataframes` directory and outputs predictions to the `data/dispute-predictions` directory. It uses the same logic as the transformation script to identify which datasets have not yet been processed. It will only load and pass these to the model. If you want to re-run predictions for a certain dataset, you should delete the corresponding dataset from the `data/dispute-predictions` folder. The script can be run as follows:
+
+```bash
+(venv) $ nohup python3 -u scripts/nu-api-data-predict.py > logs/dispute-data-predict.log &
+```
+
+Note: The prediction pipeline consists of uses a longformer-based transformer model to embed the text and then passing the embeddings matrix to a logistic regression classifier head to generate the predictions. The transformer model requires access to GPU compute unless you want to wait prohibitively long for the script to finish. See [Hardware Requirements](##-Hardware-Requirements) for details on GPU computing requirements and setup.
 
 ### Transforming predictions for coders
 
+The output of the prediction models is in JSON format and fine for forther computational purposes. If, however, you need the data converted to an excel format for further human investigation. Run the following script:
+
+```bash
+(venv) $ nohup python3 scripts/nu-api-data-predict-transform.py > logs/dispute-data-predict-transform.log &
+```
+
 ## Model Development
+
+### Prediction Task
+
+The primary aim of the curation pipeline is to ingest a very large corpus of news articles and successfully predict news articles that include a mediation event between a non-state actor that's seeking concessions and a government. Such events are extremely rare by nature. Hence, the pipeline equates to a filtering task in a much longer coding process. Articles deemed mediation events are then handed off to a human coder for final verification. Given the extreme imbalance in classes (mediation vs non-mediation events), we expected classification performance metrics to be quite poor as a baseline.
+
+### Classifier Architectures Tested
+
+To build the predictor, we leverage the huggingface transformers library to tap into state of the art deep learning models for Natural Language Processing (NLP). The original model development and testing plan entailed training and comparing eight distinct embedding + classifier. We leveraged two different transformer architectures, [DistilBERT](https://arxiv.org/pdf/1910.01108) and [Longformer](https://arxiv.org/pdf/2004.05150.pdf).
+
+DistilBERT is a small, fast, cheap and light Transformer model trained by distilling BERT base. It has 40% less parameters than bert-base-uncased, runs 60% faster while preserving over 95% of BERT’s performances as measured on the GLUE language understanding benchmark.
+
+DistilBERT is a very popular model in production settings for its ability to balance fast runtimes with great performance. However, it has a max token size of 512, meaning any documents longer than 512 characters will be truncated. One option to handle longer documents is to convert them into a smaller chunks, generate predictions on each chunk, then use some sort of rule-based logic (e.g. majority vote) to convert the array of predictions to a single prediction. We did not do that here given time and processing constraints.
+
+Longformer, by comparison, is designed for longer documents (hence the name) and handles up to 4096 tokens.
+We can try to work around imbalance by using upsampling on the feature space. It has attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer. Longformer’s attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention.
+
+Each of these two models can be used to create an embedding (numerical representation) for the news articles which can then be passed to a classifier "head" (any model that can take in a _p_-dimensional vector of features and predict an output _y_). We considered testing three different classifier heads: Logistic Regression, Support Vector Machines (SVM), and a gradient booster (XG Boost). In practice, the SVM and XG Boost took significantly longer to run than the Logistic Regression head and did not provide any significant boost in performance when testing on the first DistilBERT outputs. In the case of the SVM, performance was worse. Therefore, we did not test these for the remaining transformer models.
+
+All models are limited by their training data. Extreme imbalance in the positive class is one such limitation that pooses a serious threat to model performance. In our training data (~100k hand-labeled articles from 2 different "disputes"), positive class prevalence was a mere 0.63 percent. To try to allieviate some of this imbalance, we used a an over-sampling technique known as [sythentic minority over-sampling technique (SMOTE)](https://arxiv.org/pdf/1106.1813.pdf) available in the `imblearn` python model. This method resamples the training data and creates additional synthetic examples based on the positive class to provide a more balanced sample. We passed in the embeddings to SMOTE before training the classifier on the resampled embeddings. We acknowledge there are better ways to upsample rare datas from text data, but cost-reward trade off for developing a bespoke solution to our problem did not justify doing so.
+
+This resulted in training and testing the following architectures for comparision:
+
+- DistilBERT Embeddings > Logistic Regression Head
+- Quantized DistilBERT Embeddings > Logistic Regression Head
+- Longformer Embeddings > Logistic Regression Head
+
+Quantization is a technique used in production that involves using lower precision floating point for the tensors for the model weights plus a few other tricks that can significantly scale down the model size and run time (allowing them to generate predictions on CPUs) while preserving performance. We tried doing this for the DistilBERT model since it was very low cost---there is a pretrained model available from Huggingface---to train.
+
+### Results
+
+We trained each model and compared their results. Below you can find the confusion matrices from each architecture. The left hand side of each figure is cut-off, but the y-axis labels should read "Non-mediation" and "Mediation" from top-to-bottom.
+
+In particular, we care about the true positive versus false positive rates since, by virtue of the extreme class imbalance, predicting non-mediation events is extremely easy. You could predict every articles as non-mediation and achieve an accuracy of 99.4%. Moreover, we are primarily interested in finding _all_ mediation events and do not care about non-mediation events at all. It's more important to improperly classify an article as a mediation event than to accidentally classify a true mediation event as a non-mediation event. Hence, the False Negative and True Positive rates are what we care about minimizing and maximizing, respectively.
+
+<img src="figs/distilbert-base-uncased-confusion-matrix.png" alt="distilbert-f1" width="450"/>
+<img src="figs/distilbert-base-uncased-quantized-confusion-matrix.png" alt="quantized-distilbert-f1" width="450"/>
+<img src="figs/longformer-base-4096-confusion-matrix.png" alt="longformer-f1" width="450"/>
+
+In the figures above, the false negative rate can be found in the bottom left cell and the true positive rate in the bottom right cell. As you can see and might expect, the two DistilBERT architectures performed similarly. The tangible difference is in runtimes, which might matter if you're constrained to CPU-only infrastructure. Out of all true mediation events, they (in)correctly labeled about (33) 67% of test data points. The longformer architecture performed signifantly better, (in)correctly labeling (19) 81% of test data points.
+
+Since we ended up not being compute restrained, we opted to use the longformer architecture in production.

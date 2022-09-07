@@ -44,17 +44,28 @@ auth = OAuth2(
     client_secret=parser.get("umd_box_credentials", "CLIENT_SECRET"),
     access_token=parser.get("umd_box_credentials", "ACCESS_TOKEN"),
 )
-box_client = Client(auth)
+client = Client(auth)
 
 # Retrieve mediation project folder info
-folder_id = parser.get("umd_box_credentials", "MEDIATION_PROJECT_FOLDER_ID")
-mediation_folder = client.folder(folder_id=folder_id).get()
+folder_id = parser.get("umd_box_credentials", "OTHER_DOCUMENTS_FOLDER_ID")
+parent_folder = client.folder(folder_id=folder_id).get()
 
 #
 # Functions
 #
-def load_training_data(base_path="../data/mediation_search_results"):
-    base_path = "data/mediation_search_results"
+def load_training_data(base_path="data/mediation_search_results"):
+    dataset_paths = glob.glob(base_path + '*csv')
+    # Download datasets if they aren't already downloaded
+    if len(dataset_paths) < 2:
+        data_id = [item.id for item in curation_pipeline.item_collection['entries'] if item.name == 'Data'][0]
+        data_folder = client.folder(data_id).get()
+        
+        for item in data_folder.get().item_collection['entries']:
+            if 'mediation_search_results' in item.name:
+                with open(os.path.join('../data', item.name), 'wb') as output_file:
+                    client.file(item.id).download_to(output_file)
+
+    # Load datasets as Hugging Face Datasets
     data_files = {"train": f"{base_path}-train.csv", "test": f"{base_path}-test.csv"}
     return load_dataset("csv", data_files=data_files)
 
@@ -155,7 +166,7 @@ def get_or_create_models_folder(parent_folder):
 def main():
     # Setup output directories on box
     curation_pipeline_folder = get_or_create_curation_folder(
-        parent_folder=mediation_folder
+        parent_folder=parent_folder
     )
     models_folder = get_or_create_models_folder(parent_folder=curation_pipeline_folder)
 
